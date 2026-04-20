@@ -4,4 +4,4 @@ class Solution:
         return nums
     
 solution = Solution()
-print(solution.removeElement([1,1,2,3,4],1))
+print(solution.removeElement([1,2,1,3,4],1))
