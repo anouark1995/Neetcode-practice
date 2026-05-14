@@ -11,7 +11,7 @@ class Solution:
                  count[ord(c) - ord("a")] += 1
 
             dict[tuple(count)].append(s)
-        return dict.values()
+        return list(dict.values())
 
     
 sol = Solution()
