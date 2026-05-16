@@ -10,7 +10,7 @@ class Solution:
             for c in s:
                  count[ord(c) - ord("a")] += 1
 
-            dict[tuple(count)].append(s)
+            dict[tuple(count)].append(s)  
         return list(dict.values())
 
     
